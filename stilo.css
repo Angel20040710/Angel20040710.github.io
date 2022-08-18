@@ -1,0 +1,801 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #fff8f0;
+}
+
+.name{
+    width: 100%;
+    height: 300px;
+    background: #f1a145;
+    transform: skewY(-5deg);
+}
+
+.name .content{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+}
+
+.name .content .p-1{
+    color: #fff8f0;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: bolder;
+    font-size: 65px;
+    transform: skewY(5deg);
+    margin-bottom: 0;
+}
+
+.name .content .p-2{
+    color: #fff8f0;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-size: 35px;
+    transform: skewY(5deg);
+}
+
+/*Foto*/
+.name .img{
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    transform: skewY(5deg);
+    overflow: hidden;
+}
+
+.name .img img{
+    width: 196px;
+    height: 179px;
+}
+
+/*Caja de informacion Laboral*/
+
+.info{
+    width: 90%;
+    height: auto;
+    background: #f2a650;
+    margin: 6%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.info .tituloSeccion{
+    color: #fff8f0;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px #fff8f0 solid;
+}
+
+.info .tituloinfo{
+    color: #fff8f0;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 50px;
+}
+
+.info .infoinfo{
+    color: #392f5A;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+.info .Direccion{
+    color: #fff8f0;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 134px;
+}
+
+.info .direc{
+    color: #392f5A;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+.info .Telefono{
+    color: #fff8f0;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 145px;
+}
+
+.info .telf{
+    color: #392f5A;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+.info .Fecha{
+    color: #fff8f0;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 48px;
+}
+
+.info .fech{
+    color: #392f5A;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+.info .Email{
+    color: #fff8f0;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 65px;
+}
+
+.info .correo{
+    color: #392f5A;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+/*Caja de Experiencia Laboral*/
+.Exp{
+    width: 90%;
+    height: auto;
+    background: #f2a650;
+    margin: 5%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.Exp .titu{
+    color: #fff8f0;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px #fff8f0 solid;
+}
+
+.Exp .trabajo{
+    color: #fff8f0;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 50px;
+}
+
+.Exp .nombre-trabajo{
+    color: #392f5A;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+.Exp .otro{
+    color: #392f5A;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+    margin-left: 153px;
+}
+
+/*Caja de Educacion*/
+
+.Educacion{
+    width: 90%;
+    height: auto;
+    background: #f2a650;
+    margin: 5%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.Educacion .titulazo{
+    color: #fff8f0;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px #fff8f0 solid;
+}
+
+.Educacion .inicial{
+    color: #fff8f0;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 70px;
+}
+
+.Educacion .nombre-inicial{
+    color: #392f5A;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+.Educacion .primaria{
+    color: #fff8f0;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 50px;
+}
+
+.Educacion .nombre-primaria{
+    color: #392f5A;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+.Educacion .secundaria{
+    color: #fff8f0;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 33px;
+}
+
+.Educacion .nombre-secundaria{
+    color: #392f5A;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+.Educacion .senati{
+    color: #fff8f0;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 72px;
+}
+
+.Educacion .nombre-senati{
+    color: #392f5A;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+/*Caja de Aptitudes y Pasatiempos*/
+.Apt{
+    width: 90%;
+    height: auto;
+    background: #f2a650;
+    margin: 5%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.Apt .nombre{
+    color: #fff8f0;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px #fff8f0 solid;
+}
+
+.Apt .aptitudes{
+    color: #fff8f0;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 50px;
+}
+
+.Apt .nom-aptitudes{
+    color: #392f5A;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+.Apt .pasatiempo{
+    color: #fff8f0;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 50px;
+}
+
+.Apt span{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin-right: 40px;
+    padding-left: 1%;
+    padding-right: 1%;
+    background: #9DD9D2;
+    color: #fff8f0;
+    font-family:'Tiro Gurmukhi', serif ;
+    border-radius: 5px;
+}
+
+/*Adaptacion para diferentes dispostivos*/
+
+@media(max-width: 384px){
+
+    /*titulo*/
+    .name .content{
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    left: 5%;
+    }
+    .name .content .p-1{
+    color: #fff8f0;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: bolder;
+    font-size: 35px;
+    transform: skewY(5deg);
+    margin-bottom: 0;
+    }
+
+    .name .content .p-2{
+        color: #fff8f0;
+        font-family: 'Tiro Gurmukhi', serif;
+        font-size: 20px;
+        transform: skewY(5deg);
+    }
+
+    /*informacion personal*/
+    .info{
+        width: 80%;
+        height: auto;
+        background: #f2a650;
+        margin: 6%;
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .info .tituloinfo{
+        color: #fff8f0;
+        font-family: 'Tiro Gurmukhi', serif;
+        font-weight: bolder;
+        font-size: large;
+        display: inline;
+        margin-right: 100px;
+    }
+    
+    .info .Direccion{
+        color: #fff8f0;
+        font-family: 'Tiro Gurmukhi', serif;
+        font-weight: bolder;
+        font-size: large;
+        display: inline;
+        margin-right: 200px;
+    }
+    
+    .info .Telefono{
+        color: #fff8f0;
+        font-family: 'Tiro Gurmukhi', serif;
+        font-weight: bolder;
+        font-size: large;
+        display: inline;
+        margin-right: 200px;
+    }
+
+    .info .Fecha{
+        color: #fff8f0;
+        font-family: 'Tiro Gurmukhi', serif;
+        font-weight: bolder;
+        font-size: large;
+        display: inline;
+        margin-right: 120px;
+    }
+    
+    .info .Email{
+        color: #fff8f0;
+        font-family: 'Tiro Gurmukhi', serif;
+        font-weight: bolder;
+        font-size: large;
+        display: inline;
+        margin-right: 0px;
+    }
+
+    /*Experiencia laboral*/
+    
+    .Exp{
+        width: 80%;
+        height: auto;
+        background: #f2a650;
+        margin: 5%;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    .Exp .trabajo{
+        color: #fff8f0;
+        font-family: 'Tiro Gurmukhi', serif;
+        font-weight: bolder;
+        font-size: large;
+        display: inline;
+        margin-right: 170px;
+    }
+    
+    .Exp .otro{
+        color: #392f5A;
+        font-family: 'Tiro Gurmukhi', serif;
+        font-weight: normal;
+        font-size: large;
+        display: inline;
+        margin-left: 0px;
+    }
+
+    /*Eduacion*/
+
+    .Educacion{
+        width: 80%;
+        height: auto;
+        background: #f2a650;
+        margin: 5%;
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .Educacion .inicial{
+        color: #fff8f0;
+        font-family: 'Tiro Gurmukhi', serif;
+        font-weight: bolder;
+        font-size: large;
+        display: inline;
+        margin-right: 220px;
+    }
+     
+    .Educacion .primaria{
+        color: #fff8f0;
+        font-family: 'Tiro Gurmukhi', serif;
+        font-weight: bolder;
+        font-size: large;
+        display: inline;
+        margin-right: 200px;
+    }
+
+    .Educacion .secundaria{
+        color: #fff8f0;
+        font-family: 'Tiro Gurmukhi', serif;
+        font-weight: bolder;
+        font-size: large;
+        display: inline;
+        margin-right: 200px;
+    }
+    
+    .Educacion .senati{
+        color: #fff8f0;
+        font-family: 'Tiro Gurmukhi', serif;
+        font-weight: bolder;
+        font-size: large;
+        display: inline;
+        margin-right: 201px;
+    }
+    
+    /*Educacion y pasatiempos*/
+
+    .Apt{
+        width: 80%;
+        height: auto;
+        background: #f2a650;
+        margin: 5%;
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .Apt .aptitudes{
+        color: #fff8f0;
+        font-family: 'Tiro Gurmukhi', serif;
+        font-weight: bolder;
+        font-size: large;
+        display: inline;
+        margin-right: 200px;
+    }
+    
+    .Apt .pasatiempo{
+        color: #fff8f0;
+        font-family: 'Tiro Gurmukhi', serif;
+        font-weight: bolder;
+        font-size: large;
+        display: inline;
+        margin-right: 150px;
+    }
+
+    .Apt span{
+        display: inline-block;
+        width: auto;
+        height: auto;
+        margin-right: 10px;
+        padding-left: 1%;
+        padding-right: 1%;
+        background: #9DD9D2;
+        color: #fff8f0;
+        font-family:'Tiro Gurmukhi', serif ;
+        border-radius: 5px;
+    }
+}   
+
+@media(min-width: 385px) and (max-width: 800px){
+
+    /*titulo*/
+    .name .content{
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    left: 5%;
+    }
+    .name .content .p-1{
+    color: #fff8f0;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: bolder;
+    font-size: 30px;
+    transform: skewY(5deg);
+    margin-bottom: 0;
+    }
+
+    .name .content .p-2{
+        color: #fff8f0;
+        font-family: 'Tiro Gurmukhi', serif;
+        font-size: 20px;
+        transform: skewY(5deg);
+    }
+
+    /*informacion personal*/
+    .info{
+        width: 80%;
+        height: auto;
+        background: #f2a650;
+        margin: 6%;
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .info .tituloinfo{
+        color: #fff8f0;
+        font-family: 'Tiro Gurmukhi', serif;
+        font-weight: bolder;
+        font-size: large;
+        display: inline;
+        margin-right: 20px;
+    }
+    
+    .info .Direccion{
+        color: #fff8f0;
+        font-family: 'Tiro Gurmukhi', serif;
+        font-weight: bolder;
+        font-size: large;
+        display: inline;
+        margin-right: 10px;
+    }
+    
+    .info .Telefono{
+        color: #fff8f0;
+        font-family: 'Tiro Gurmukhi', serif;
+        font-weight: bolder;
+        font-size: large;
+        display: inline;
+        margin-right: 20px;
+    }
+
+    .info .Fecha{
+        color: #fff8f0;
+        font-family: 'Tiro Gurmukhi', serif;
+        font-weight: bolder;
+        font-size: large;
+        display: inline;
+        margin-right: 10px;
+    }
+    
+    .info .Email{
+        color: #fff8f0;
+        font-family: 'Tiro Gurmukhi', serif;
+        font-weight: bolder;
+        font-size: large;
+        display: inline;
+        margin-right: 0px;
+    }
+
+    /*Experiencia laboral*/
+    
+    .Exp{
+        width: 80%;
+        height: auto;
+        background: #f2a650;
+        margin: 5%;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    .Exp .trabajo{
+        color: #fff8f0;
+        font-family: 'Tiro Gurmukhi', serif;
+        font-weight: bolder;
+        font-size: large;
+        display: inline;
+        margin-right: auto;
+    }
+    
+    .Exp .otro{
+        color: #392f5A;
+        font-family: 'Tiro Gurmukhi', serif;
+        font-weight: normal;
+        font-size: large;
+        display: inline;
+        margin-left: 0px;
+    }
+
+    /*Eduacion*/
+
+    .Educacion{
+        width: 80%;
+        height: auto;
+        background: #f2a650;
+        margin: 5%;
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .Educacion .inicial{
+        color: #fff8f0;
+        font-family: 'Tiro Gurmukhi', serif;
+        font-weight: bolder;
+        font-size: large;
+        display: inline;
+        margin-right: 20px;
+    }
+     
+    .Educacion .primaria{
+        color: #fff8f0;
+        font-family: 'Tiro Gurmukhi', serif;
+        font-weight: bolder;
+        font-size: large;
+        display: inline;
+        margin-right: 20px;
+    }
+
+    .Educacion .secundaria{
+        color: #fff8f0;
+        font-family: 'Tiro Gurmukhi', serif;
+        font-weight: bolder;
+        font-size: large;
+        display: inline;
+        margin-right: 20px;
+    }
+    
+    .Educacion .senati{
+        color: #fff8f0;
+        font-family: 'Tiro Gurmukhi', serif;
+        font-weight: bolder;
+        font-size: large;
+        display: inline;
+        margin-right: 20px;
+    }
+    
+    /*Educacion y pasatiempos*/
+
+    .Apt{
+        width: 80%;
+        height: auto;
+        background: #f2a650;
+        margin: 5%;
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .Apt .aptitudes{
+        color: #fff8f0;
+        font-family: 'Tiro Gurmukhi', serif;
+        font-weight: bolder;
+        font-size: large;
+        display: inline;
+        margin-right: 0px;
+    }
+    
+    .Apt .pasatiempo{
+        color: #fff8f0;
+        font-family: 'Tiro Gurmukhi', serif;
+        font-weight: bolder;
+        font-size: large;
+        display: inline;
+        margin-right: 0px;
+    }
+
+    .Apt span{
+        display: inline-block;
+        width: auto;
+        height: auto;
+        margin-right: 10px;
+        padding-left: 1%;
+        padding-right: 1%;
+        background: #9DD9D2;
+        color: #fff8f0;
+        font-family:'Tiro Gurmukhi', serif ;
+        border-radius: 5px;
+    }
+}   
+
+@media(min-width: 800px) and (max-width: 919px){
+    .name .content .p-1{
+        color: #fff8f0;
+        font-family: 'Tiro Gurmukhi', serif;
+        font-weight: bolder;
+        font-size: 50px;
+        transform: skewY(5deg);
+        margin-bottom: 0;
+        }
+    
+        .name .content .p-2{
+            color: #fff8f0;
+            font-family: 'Tiro Gurmukhi', serif;
+            margin-right: 45px;
+            font-size: 30px;
+            transform: skewY(5deg);
+        }
+
+        .info{
+            width: 85%;
+            height: auto;
+            background: #f2a650;
+            margin: 6%;
+            padding: 20px;
+            border-radius: 20px;
+        }
+
+        .Exp{
+            width: 85%;
+            height: auto;
+            background: #f2a650;
+            margin: 5%;
+            padding: 20px;
+            border-radius: 20px;
+        }
+
+        .Educacion{
+            width: 85%;
+            height: auto;
+            background: #f2a650;
+            margin: 5%;
+            padding: 20px;
+            border-radius: 20px;
+        }
+
+        .Apt{
+            width: 85%;
+            height: auto;
+            background: #f2a650;
+            margin: 5%;
+            padding: 20px;
+            border-radius: 20px;
+        }
+}
